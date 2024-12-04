@@ -30,27 +30,27 @@ function shakeMagic8Ball() {
 
     case 3:
       eightBall = "Cannot predict now";
-      imagePath = "images/cannotpredict.jpg"; // Path to the "Cannot predict now" image
+      imagePath = "/images/cannotpredict.jpg"; // Path to the "Cannot predict now" image
       break;
 
     case 4:
       eightBall = "Do not count on it";
-      imagePath = "images/dontcount.jpg"; // Path to the "Do not count on it" image
+      imagePath = "imgs/dontcount.jpg"; // Path to the "Do not count on it" image
       break;
 
     case 5:
       eightBall = "My sources say no";
-      imagePath = "images/no.jpg"; // Path to the "My sources say no" image
+      imagePath = "/imgs/no.jpg"; // Path to the "My sources say no" image
       break;
 
     case 6:
       eightBall = "Outlook is not so good";
-      imagePath = "images/notlooking.jpg"; // Path to the "Outlook is not so good" image
+      imagePath = "/imgs/notlooking.jpg"; // Path to the "Outlook is not so good" image
       break;
 
     case 7:
       eightBall = "Signs point to yes";
-      imagePath = "yes.jpg"; // Path to the "Signs point to yes" image
+      imagePath = "/imgs/yes.jpg"; // Path to the "Signs point to yes" image
       break;
   }
 
