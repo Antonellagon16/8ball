@@ -1,0 +1,71 @@
+body {
+    background-color: #fce4ec; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+#magic-8-ball {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#response-text {
+    font-size: 1.2em;
+    color: #d81b60; /* Dark pink color for text */
+    font-weight: bold;
+}
+
+button {
+    padding: 12px 40px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ec407a; /* Pink background for the button */
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #d81b60; /* Darker pink when hovered */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+footer {
+    background-color: #d81b60; /* Dark pink footer */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#response-image {
+    max-height: 300px;
+    transition: transform 0.5s ease;
+    margin-bottom: 20px;
+}
+
+#response-image.shake {
+    transform: rotate(360deg); /* Rotate the image */
+}
+
+h1, h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ad1457; /* A unique pink shade for headers */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+}
