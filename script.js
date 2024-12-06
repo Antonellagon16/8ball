@@ -30,7 +30,7 @@ function shakeMagic8Ball() {
 
     case 3:
       eightBall = "Cannot predict now";
-      imagePath = "/images/cannotpredict.jpg"; // Path to the "Cannot predict now" image
+      imagePath = "/imgs/cannotpredict.jpg"; // Path to the "Cannot predict now" image
       break;
 
     case 4:
